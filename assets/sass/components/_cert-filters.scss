@@ -1,0 +1,151 @@
+.cert-filters {
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	@include font-size(16px);
+	color: #fff;
+
+	@include media-query (sm) {
+		position: absolute;
+		left: 15px;
+		bottom: 0;
+	}
+
+	.filter-group {
+		display: none;
+		position: relative;
+		width: 100%;
+
+		@include media-query (sm) {
+			width: 24%;
+			margin-left: 1.3333%;
+			float: left;
+
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+
+		@include media-query (md) {
+			width: 208px;
+			margin-right: 12px;
+		}
+
+		&:hover {
+			.title {
+				&:hover { background: rgba(255,255,255,1); }
+			}
+		}
+
+		&.browse-by:hover {
+			.title {
+				&:hover { background: rgba(50,50,50,1); }
+			}
+		}
+
+		ul {
+//			display: none;
+			position: absolute;
+			left: 0;
+			top: 48px;
+			width: 100%;
+			color: #454545;
+			border-bottom: 1px solid #dadada;
+
+			li {
+				@include rem('padding', 9px 18px);
+				border: 1px solid #dadada;
+				border-bottom: none;
+				background: #fff;
+				background: rgba(255,255,255,.8);
+				@include transition(.2asfasdfs);
+
+				&:hover {
+					background: rgba(255,255,255,1);
+				}
+			}
+		}
+	}
+
+
+	.title {
+		position: relative;
+		@include rem('padding', 12px 18px);
+		color: #454545;
+		@include font-size(16px);
+		line-height: 1;
+		background: #333;
+		background: rgba(255,255,255,.8);
+		font-weight: 600;
+		border: 1px solid #c2c2c2;
+		-webkit-font-smoothing: anti-aliased;
+		@include transition(.8s);
+
+		&:before {
+
+		}
+
+		&:after {
+			content: "";
+			position: absolute;
+			right: 14px;
+			top: 16px;
+			border-top: 6px solid #888;
+			border-left: 6px solid transparent;
+			border-right: 6px solid transparent;
+		}
+	}
+
+	.filter-group.browse-by {
+		display: block;
+
+		&.active { ul { display: none; } }
+
+		.title {
+			display: block;
+			border: 1px solid #5a5a5a;
+			background: rgba(50,50,50,.8);
+			color: #fff;
+
+			&:after {
+				border-top-color: #f2f2f1;
+			}
+		}
+
+		ul {
+			display: none;
+			border-bottom: 1px solid #494949;
+
+			li {
+				color: #fff;
+				background: rgba(51,51,51,.8);
+				border: 1px solid #494949;
+				border-bottom: none;
+				@include transition(.2s);
+
+				&:hover {
+					background: rgba(51,51,51,1);
+				}
+			}
+		}
+	}
+
+	.current {
+		display: none;
+
+		.title {
+			@include font-size(12px);
+			font-weight: 400;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	.title, li {
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}

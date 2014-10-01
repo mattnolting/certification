@@ -1,11 +1,13 @@
 </div>
+</main>
+</div>
 <!--googleoff: all-->
 <footer class="footer-main">
 	<div class="container footer-top">
 		<div class="row">
 
 			<div class="col-sm-2 brand">
-				<img src="../avalon-docs/chrome_themes/nimbus/img/l_redhat-reverse.png" alt="Red Hat">
+				<img src="../../avalon-docs/chrome_themes/nimbus/img/l_redhat-reverse.png" alt="Red Hat">
 			</div><menu class="col-sm-2">
 				<h3>Quick Links</h3>
 				<ul>
@@ -60,7 +62,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-4 social">
-					<a target="_blank" href="http://www.redhat.com/summit/" class="summit"><img src="../avalon-docs/chrome_themes/nimbus/img/l_summit.png" alt="Red Hat Summit"></a>
+					<a target="_blank" href="http://www.redhat.com/summit/" class="summit"><img src="../../avalon-docs/chrome_themes/nimbus/img/l_summit.png" alt="Red Hat Summit"></a>
 					<a target="_blank" href="https://twitter.com/RedHatSupport" class="sm-icon twitter"><span class="nicon-twitter"></span><span class="offscreen">Twitter</span></a>
 					<a target="_blank" href="https://www.facebook.com/RedHatSupport" class="sm-icon facebook"><span class="nicon-facebook"></span><span class="offscreen">Facebook</span></a>
 					<a target="_blank" href="https://plus.google.com/100456039940694908045/posts" class="sm-icon googleplus"><span class="nicon-googleplus"></span><span class="offscreen">Google+</span></a>

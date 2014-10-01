@@ -1,0 +1,58 @@
+.page-certification {
+
+	.portal-content-area {
+		background: none;
+	}
+
+	.main-content {
+		background: none;
+	}
+
+	.masthead { background: transparent; }
+
+	.band.plain {
+		background: #fff;
+	}
+
+	.results {
+		.thumb {
+			max-width: 100px;
+
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+		}
+	}
+
+	h1 {
+		font-weight: 700;
+	}
+
+	.band-gray {
+		background: #ededed;
+	}
+
+	.logo.logo-primary {
+		max-width: 300px;
+		height: auto;
+	}
+}
+
+.top-page-wrap {
+	background: url('../img/bg_cert.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center top;
+}
+
+.cert-list {
+	thead {
+		background: #4c4c4c;
+		color: #fff;
+	}
+	
+	.version {
+		width: 50px;
+	}
+}

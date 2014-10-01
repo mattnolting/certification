@@ -56,43 +56,21 @@ module.exports = function(grunt) {
         }
       }
     },
-    version: {
-      options: {
-        file: 'lib/scripts.php',
-        css: 'assets/css/main.min.css',
-        cssHandle: 'roots_main',
-        js: 'assets/js/scripts.min.js',
-        jsHandle: 'roots_scripts'
-      }
-    },
-    watch: {
-      sass: {
-        files: [
-          'assets/sass/**/*.scss',
-          'assets/sass/bootstrap/*.scss'
-        ],
-        tasks: ['sass', 'version']
-      },
-      js: {
-        files: [
-          '<%= jshint.all %>'
-        ],
-        tasks: ['jshint', 'uglify', 'version']
-      },
-      livereload: {
-        // Browser live reloading
-        // https://github.com/gruntjs/grunt-contrib-watch#live-reloading
-        options: {
-          livereload: false
-        },
-        files: [
-          'assets/css/main.min.css',
-          'assets/js/scripts.min.js',
-          'templates/*.php',
-          '*.php'
-        ]
-      }
-    },
+		watch: {
+			sass: {
+				files: [
+					'assets/sass/**/*.scss',
+					'assets/sass/bootstrap/*.scss'
+				],
+				tasks: ['sass'/*, 'version'*/]
+			},
+			js: {
+				files: [
+					'<%= jshint.all %>'
+				],
+				tasks: ['jshint', 'uglify'/*, 'version'*/]
+			}
+		},
     clean: {
       dist: [
         'assets/css/main.min.css',
@@ -100,6 +78,8 @@ module.exports = function(grunt) {
       ]
     }
   });
+
+
 
   // Load tasks
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -111,10 +91,10 @@ module.exports = function(grunt) {
 
   // Register tasks
   grunt.registerTask('default', [
-    //'clean',
-    // 'sass',
-    //'uglify',
-    // 'version'
+    'clean',
+    'sass',
+    'uglify',
+    //'version'
   ]);
   grunt.registerTask('dev', [
     'watch'

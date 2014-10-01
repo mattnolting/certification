@@ -24,18 +24,18 @@
 
 	<!-- cssInclude -->
 
-	<link rel="shortcut icon" href="../avalon-docs/g/favicon.ico">
-	<link rel="stylesheet" type="text/css" media="screen, print" href="../avalon-docs/s/jquery-ui/cp/jquery-ui-1.8.7.custom.css?version=2.0.14.0-SNAPSHOT">
+	<link rel="shortcut icon" href="../../../avalon-docs/g/favicon.ico">
+	<link rel="stylesheet" type="text/css" media="screen, print" href="../../../avalon-docs/s/jquery-ui/cp/jquery-ui-1.8.7.custom.css?version=2.0.14.0-SNAPSHOT">
 
 	<!-- TODO: What is pageCssLinks and do we still need it? -->
 
 
-	<link media="all" rel="stylesheet" type="text/css" href="../avalon-docs/j/lib/action-menu/css/style.css">
-	<link media="all" rel="stylesheet" type="text/css" href="../avalon-docs/chrome_themes/nimbus/css/master.css">
+	<link media="all" rel="stylesheet" type="text/css" href="../../../avalon-docs/j/lib/action-menu/css/style.css">
+	<link media="all" rel="stylesheet" type="text/css" href="../../../avalon-docs/chrome_themes/nimbus/css/master.css">
 
-	<link href="../avalon-docs/s/chosen.css?version=2.0.8.0" rel="stylesheet" type="text/css">
+	<link href="../../../avalon-docs/s/chosen.css?version=2.0.8.0" rel="stylesheet" type="text/css">
 	<!--[if lte IE 9]>
-	<link media="all" rel="stylesheet" type="text/css" href="../avalon-docs/chrome_themes/nimbus/css/ie.css" />
+	<link media="all" rel="stylesheet" type="text/css" href="../../../../avalon-docs/chrome_themes/nimbus/css/ie.css"/>
 	<![endif]-->
 
 
@@ -71,13 +71,13 @@
 		portal.analytics.shim.siteMapState = "home";
 
 	</script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/require.js?version=2.0.14.0-SNAPSHOT" data-main="/webassets/avalon/j/"></script>
+	<script type="text/javascript" src="../../../../avalon-docs/j/lib/require.js?version=2.0.14.0-SNAPSHOT" data-main="/webassets/avalon/j/"></script>
 	<!-- TODO: can we please upgrade jquery?! -->
-	<script type="text/javascript" src="../avalon-docs/j/lib/jquery-1.7.2.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ajax_error_handler" src="../avalon-docs/j/includes/chrometwo/ajax_error_handler.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="../avalon-docs/j/lib/jquery-1.7.2.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/attributes" src="../avalon-docs/j/includes/chrometwo/analytics/attributes.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="chrome_lib" src="../avalon-docs/j/includes/chrometwo/chrome_lib.js?v=2.0.11"></script>
+	<script type="text/javascript" src="../../../../avalon-docs/j/lib/jquery-1.7.2.min.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ajax_error_handler" src="../../../../avalon-docs/j/includes/chrometwo/ajax_error_handler.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="../../../../avalon-docs/j/lib/jquery-1.7.2.min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/attributes" src="../../../../avalon-docs/j/includes/chrometwo/analytics/attributes.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="chrome_lib" src="../../../../avalon-docs/j/includes/chrometwo/chrome_lib.js?v=2.0.11"></script>
 	<script type="text/javascript">
 		/*
 		 * THIS IS NEEDED! Integrated apps include their own jQuery lib.
@@ -86,30 +86,30 @@
 		 */
 		var ajq = jQuery.noConflict();
 	</script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/jquery-ui-1.8.20.custom.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jsUri" src="../avalon-docs/j/lib/jsuri-1.1.1.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="../avalon-docs/j/lib/underscore-min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="user_info" src="../avalon-docs/j/includes/chrometwo/user_info.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/separators" src="../avalon-docs/j/includes/chrometwo/analytics/separators.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/adapters/omniture/old_fns" src="../avalon-docs/j/includes/chrometwo/analytics/adapters/omniture/old_fns.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idle-timer" src="../avalon-docs/j/lib/idle-timer-1.0.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-blockUI" src="../avalon-docs/j/lib/jquery.blockUI.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-autoresize" src="../avalon-docs/j/lib/autoresize.jquery.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal_outage" src="../avalon-docs/j/lib/outage/outageJson_en.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="decorate" src="../avalon-docs/j/includes/chrometwo/decorate.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modernizr" src="../avalon-docs/j/lib/modernizr.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nimbus/nav" src="../avalon-docs/chrome_themes/nimbus/js/nav.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eloqua-cfg" src="../avalon-docs/j/lib/eloqua/elqCfg.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="../avalon-docs/j/lib/jquery-ui-1.8.20.custom.min.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="../avalon-docs/j/lib/bootstrap.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="load_html" src="../avalon-docs/j/includes/chrometwo/load_html.js?v=2.0.11"></script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/bootstrap3.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/idle-timer-1.0.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/jquery.blockUI.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/jquery.equalheights.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/autoresize.jquery.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/lib/jsuri-1.1.1.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/includes/chrometwo/inject.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/includes/chrometwo/decorate.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../avalon-docs/j/outage/outageJson_en.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/jquery-ui-1.8.20.custom.min.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jsUri" src="../../../avalon-docs/j/lib/jsuri-1.1.1.min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="../../../avalon-docs/j/lib/underscore-min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="user_info" src="../../../avalon-docs/j/includes/chrometwo/user_info.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/separators" src="../../../avalon-docs/j/includes/chrometwo/analytics/separators.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/adapters/omniture/old_fns" src="../../../avalon-docs/j/includes/chrometwo/analytics/adapters/omniture/old_fns.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idle-timer" src="../../../avalon-docs/j/lib/idle-timer-1.0.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-blockUI" src="../../../avalon-docs/j/lib/jquery.blockUI.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-autoresize" src="../../../avalon-docs/j/lib/autoresize.jquery.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal_outage" src="../../avalon-docs/j/lib/outage/outageJson_en.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="decorate" src="../../../avalon-docs/j/includes/chrometwo/decorate.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modernizr" src="../../../avalon-docs/j/lib/modernizr.min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nimbus/nav" src="../../../avalon-docs/chrome_themes/nimbus/js/nav.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eloqua-cfg" src="../../../avalon-docs/j/lib/eloqua/elqCfg.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="../../../avalon-docs/j/lib/jquery-ui-1.8.20.custom.min.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="../../../avalon-docs/j/lib/bootstrap.min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="load_html" src="../../../avalon-docs/j/includes/chrometwo/load_html.js?v=2.0.11"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/bootstrap3.min.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/idle-timer-1.0.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/jquery.blockUI.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/jquery.equalheights.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/autoresize.jquery.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/lib/jsuri-1.1.1.min.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/includes/chrometwo/inject.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/includes/chrometwo/decorate.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/j/outage/outageJson_en.js?version=2.0.14.0-SNAPSHOT"></script>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -118,29 +118,31 @@
 	<![endif]-->
 
 
-	<script type="text/javascript" src="../avalon-docs/chrome_themes/nimbus/js/base.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="../../../avalon-docs/chrome_themes/nimbus/js/base.js?version=2.0.14.0-SNAPSHOT"></script>
 	<!-- /jsInclude -->
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/main" src="../avalon-docs/j/includes/chrometwo/analytics/main.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="google_remarketing" src="../avalon-docs/j/includes/google_remarketing.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fitvids" src="../avalon-docs/j/lib/jquery.fitvids.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="inject" src="../avalon-docs/j/includes/chrometwo/inject.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nimbus/utility_tray" src="../avalon-docs/chrome_themes/nimbus/js/utility_tray.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/main" src="../../../avalon-docs/j/includes/chrometwo/analytics/main.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="google_remarketing" src="../../../avalon-docs/j/includes/google_remarketing.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fitvids" src="../../../avalon-docs/j/lib/jquery.fitvids.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="inject" src="../../../avalon-docs/j/includes/chrometwo/inject.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nimbus/utility_tray" src="../../../avalon-docs/chrome_themes/nimbus/js/utility_tray.js?v=2.0.11"></script>
 	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="equalHeights" src="https://access.devgssci.devlab.phx1.redhat.com/webassets/avalon/j/lib/jquery.equalheights.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eloqua-img" src="https://access.devgssci.devlab.phx1.redhat.com/webassets/avalon/j/lib/eloqua/elqImg.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="menu_aim" src="../avalon-docs/j/lib/jquery.menu-aim.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="scroll_to_fixed" src="../avalon-docs/j/lib/jquery-scrolltofixed-min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/url" src="../avalon-docs/j/includes/chrometwo/analytics/url.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/sites/portal/urls" src="../avalon-docs/j/includes/chrometwo/analytics/sites/portal/urls.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="s_code" src="../avalon-docs/j/lib/s_code.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="menu_aim" src="../../../avalon-docs/j/lib/jquery.menu-aim.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="scroll_to_fixed" src="../../../avalon-docs/j/lib/jquery-scrolltofixed-min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/url" src="../../../avalon-docs/j/includes/chrometwo/analytics/url.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/sites/portal/urls" src="../../../avalon-docs/j/includes/chrometwo/analytics/sites/portal/urls.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="s_code" src="../../../avalon-docs/j/lib/s_code.js?v=2.0.11"></script>
 	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/reset.css" rel="stylesheet" type="text/css">
 	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/page.css" rel="stylesheet" type="text/css">
 	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/jive-snapshot-reset.css" rel="stylesheet" type="text/css">
 	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/dompicker.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="base" src="../avalon-docs/chrome_themes/nimbus/js/base.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="../avalon-docs/j/lib/text.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="survey" src="../avalon-docs/j/includes/survey.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="../avalon-docs/j/lib/moment.min.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="base" src="../../../avalon-docs/chrome_themes/nimbus/js/base.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="../../../avalon-docs/j/lib/text.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="survey" src="../../../avalon-docs/j/includes/survey.js?v=2.0.11"></script>
+	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="../../../avalon-docs/j/lib/moment.min.js?v=2.0.11"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<link rel="stylesheet" href="assets/css/main.min.css"/>
 </head>
 
-<body class="sfdc_available home-page certification-page en loggedOut" dir="ltr">
+<body class="sfdc_available page-certification en loggedOut" dir="ltr">
 <div id="page-wrap" class="page-wrap">
 <div class="top-page-wrap">
 <!--googleoff: all-->

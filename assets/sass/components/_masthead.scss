@@ -1,0 +1,18 @@
+.page-header-wrap {
+	position: relative;
+	@include rem('padding-top', 60px);
+}
+
+.page-header {
+	padding: 0;
+	margin-top: 0;
+	border: none;
+
+	@include media-query (sm) { margin-bottom: 60px; }
+	@include media-query (md) { margin-bottom: 70px; }
+
+	.headline {
+		font-weight: 800;
+	}
+}
+

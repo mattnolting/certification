@@ -23,11 +23,6 @@
 
 		// Brand Specific
 		//--------------------------------------------------------------*/
-		$brand_primary: #cc0000;
-		$brand_secondary: #d9d9d9;
-
-
-		$brown: #3f270f;
 
 
 		// Colors
@@ -35,31 +30,6 @@
 		$blue: #093554;
 		$blue_light: #1461a3;
 		$blue_dark: #093554;
-
-		// Buttons
-		//==================================================================*/
-		$btn_primary_bg: #252527;
-		$btn_primary_bg_hover: #49494d;
-
-		$btn_font_color: #fff;
-
-
-		// Information and Validation
-		//--------------------------------------------------------------*/
-		$info_color: #428bca;
-		$error_color: #d9534f;
-		$success_color: #5cb85c;
-
-
-		// Text and Links
-		//--------------------------------------------------------------*/
-		$link_color: $brand_info;
-		$link_color_hover: darken($link_color, 15%);
-
-
-		// Form Block Hover
-		//==================================================================*/
-		$form_block_hover: #f7f7f7;
 
 
 	// Typography Settings
@@ -126,7 +96,7 @@
 	// Table Settings
 	//==================================================================*/
 	$table_cell_padding: 8px;
-	$table_cell_border: 1px solid $brand_primary;
+	$table_cell_border: 1px solid #ddd;
 
 	// Row Settings
 	//==================================================================

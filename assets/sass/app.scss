@@ -14,12 +14,18 @@ $bootstrap-sass-asset-helper: false;
 
 // Elements
 //==================================================================
-//@import "elements/helpers";
+@import "elements/checkboxes";
+@import "elements/tables";
 
 
 // Components
 //==================================================================
-//@import "components/masthead"; //masthead
+@import "components/page";
+@import "components/masthead";
+@import "components/cert-filters";
+@import "components/nav-tabs";
+@import "components/tabs";
+@import "components/search";
 
 
 // Page Templates

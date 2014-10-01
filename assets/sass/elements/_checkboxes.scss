@@ -1,0 +1,12 @@
+.radio, .checkbox {
+	label {
+		padding: 0;
+	}
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+	height: auto;
+	position: relative;
+	margin: 0;
+	margin-right: 8px;
+}

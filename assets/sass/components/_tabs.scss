@@ -1,0 +1,31 @@
+.tabs-gray {
+
+	& > li.active > a, & > li.active > a:hover, & > li.active > a:focus {
+		background: #F0F0F0;
+	}
+
+	li {
+		background: #fff;
+		border: none;
+
+		a {
+			color: #252527;
+			font-weight: 600;
+			@include font-size(14px);
+			line-height: 1;
+
+			.active & {
+				color: orange;
+			}
+		}
+
+		&.active a {
+			color: #646464;
+		}
+	}
+
+	.tab-content {
+		min-height: 0;
+		@include rem('padding', 30px);
+	}
+}
