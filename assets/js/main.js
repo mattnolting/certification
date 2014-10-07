@@ -10,11 +10,13 @@ $(document).ready(function($){
 
 	browseByTitle.click(function(){ browseByList.fadeToggle(); });
 	browseByLink.click(function(){
-		var target      = $(this).attr('data-target');
+		var target      = $(this).attr('data-target'),
+			content     = $(this).html();
 
 		browseByList.fadeToggle();
 		$('#' + target).show();
 		subFilter.not('#' + target).hide();
+		$('.lead-in').html('Currently browsing by: ' + content);
 	});
 
 	subLink.click(function(){
@@ -22,11 +24,21 @@ $(document).ready(function($){
 
 		$(this).find('ul').show();
 		$('#current').show().find('.title').html(content);
+		$('.headline').html(content);
+
 		subLink.parent().fadeOut();
 	});
 
 	subTitle.click(function(){
 		$(this).next('ul').fadeToggle();
+	});
+
+	$(document).keyup(function(e) {
+		if (e.keyCode === 27) {
+			if ($('.filter-group ul').is(':visible')) {
+				$('.filter-group ul').fadeOut();
+			}
+		}
 	});
 
 	function filterResults() {
@@ -46,5 +58,4 @@ $(document).ready(function($){
 	}
 
 	filterResults();
-
 });

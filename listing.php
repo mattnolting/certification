@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-sm-3">
 						<aside id="category" class="filter-list">
-							<h3>Category</h3>
+							<h3 class="title">Category</h3>
 								<div class="checkbox">
 									<label>
 										<input class="all" type="checkbox" checked>All Categories</label>
@@ -33,7 +33,7 @@
 								</div>
 								<div class="checkbox">
 									<label>
-										<input type="checkbox">Plugins</label>
+										<input type="checkbox">Drivers & Plugins</label>
 									</label>
 								</div>
 								<div class="checkbox">
@@ -48,46 +48,31 @@
 								</div>
 						</aside>
 						<aside id="vendor" class="filter-list">
-							<h3>Vendors</h3>
+							<h3 class="title">Vendor</h3>
 							<div class="checkbox">
 								<label>
-									<input class="all" type="checkbox" checked>All Categories</label>
+									<input type="checkbox" checked>Show All Vendors</label>
 								</label>
 							</div>
+							<div class="selected-filters">
+								<button class="btn filter-control" data-toggle="modal" data-target="#vendor">Launch Vendor Filters<i class="fa fa-edit"></i></button>
+								<button class="btn btn-filter">Nelson Van Buren of Hitachi<i class="fa fa-times-circle-o"></i></button>
+								<button class="btn btn-filter">Hitachi<i class="fa fa-times-circle-o"></i></button>
+								<button class="btn btn-filter">Dell<i class="fa fa-times-circle-o"></i></button>
+								<button class="btn btn-filter">Acer<i class="fa fa-times-circle-o"></i></button>
+								<button class="btn btn-filter">IBM<i class="fa fa-times-circle-o"></i></button>
+							</div>
+						</aside>
+
+						<aside id="vendor" class="filter-list">
+							<h3 class="title">Certified For</h3>
 							<div class="checkbox">
 								<label>
-									<input type="checkbox">Servers</label>
+									<input type="checkbox" checked>Show All Environments</label>
 								</label>
 							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">Desktops</label>
-								</label>
-							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">Laptops</label>
-								</label>
-							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">Components</label>
-								</label>
-							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">Plugins</label>
-								</label>
-							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">Applications</label>
-								</label>
-							</div>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox">Service Providers</label>
-								</label>
+							<div class="selected-filters">
+								<button class="btn filter-control" data-toggle="modal" data-target="#environments">Launch Environment Filters<i class="fa fa-edit"></i></button>
 							</div>
 						</aside>
 					</div>
@@ -95,23 +80,81 @@
 						<table class="results">
 							<thead>
 							<tr>
-								<th colspan="3">test</th>
+								<th colspan="2">245 Matching Products</th>
+								<th colspan="1">
+									<div class="dropdown sort-by">
+										<a id="drop" class="btn btn-simple" role="button" data-toggle="dropdown" href="#">Sort by:<span class="caret"></span></a>
+										<ul id="sort" class="dropdown-menu" role="menu" aria-labelledby="drop">
+											<li role="presentation">Action</li>
+											<li role="presentation">Another action</li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Something else here</a></li>
+											<li role="presentation" class="divider"></li>
+											<li role="presentation"><a role="menuitem" tabindex="-1" href="http://twitter.com/fat">Separated link</a></li>
+										</ul>
+									</div>
+								</th>
 							</tr>
 							</thead>
 							<tbody>
-							<?php for($i = 0; $i<10; $i++): ?>
 								<tr>
 									<td class="thumb">
 										<a href="product.php">
-											<img src="http://placehold.it/150x75" alt="placeholder" />
+											<img src="assets/img/l_hitachi.jpg" alt="placeholder" />
 										</a>
 									</td>
 									<td class="title">
-										<h4 class="">Abbee Sshope - PC Diamond</h4>
-										<span>Enterprise Linux 4</span>
+										<a href="product.php">
+											<h4>Bladesymphony - 1000 IPF Server Module GVAA64A4</h4>
+											<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+										</a>
 									</td>
 									<td class="option">
+										<span class="category">Hardware</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="thumb">
+										<a href="product.php">
+											<img src="assets/img/l_fujitsu.jpg" alt="placeholder" />
+										</a>
+									</td>
+									<td class="title">
+										<a href="product.php">
+											<h4>Celsius - C620</h4>
+											<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+										</a>
+									</td>
+									<td class="option">
+										<span class="category">Hardware</span>
+									</td>
+								</tr>
 
+
+							<?php for($i = 0; $i<6; $i++): ?>
+								<tr>
+									<td class="thumb">
+										<a href="product.php">
+											<?php if($i===1) : ?>
+												<img src="assets/img/l_hitachi.jpg" alt="placeholder" />
+											<?php elseif($i===2) : ?>
+												<img src="assets/img/l_fujitsu.jpg" alt="placeholder" />
+											<?php elseif($i===3) : ?>
+												<img src="assets/img/l_hp.jpg" alt="placeholder" />
+											<?php elseif($i===4) : ?>
+												<img src="assets/img/l_sun.gif" alt="placeholder" />
+											<?php else : ?>
+												<img src="assets/img/l_dell.png" alt="placeholder" />
+											<?php endif; ?>
+										</a>
+									</td>
+									<td class="title">
+										<a href="product.php">
+											<h4>Abbee Sshope - PC Diamond</h4>
+											<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet.</span>
+										</a>
+									</td>
+									<td class="option">
+										<span class="category">Hardware</span>
 									</td>
 								</tr>
 							<?php endfor; ?>
@@ -121,34 +164,6 @@
 					</div>
 				</div>
 			</div>
-
-			<div class="band band-hero band-hero-cover band-hero-top" style="background-image: url(/nimbus/chrome_themes/nimbus/img/temp-banner.jpg);">
-				<div class="container">
-
-					<div class="hero">
-						<h2 class="lead-in lead-in-white">Heroes</h2>
-						<p class="headline headline-white">Super awesome banners</p>
-						<p class="strapline strapline-white">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fusce libero urna, sagittis sit amet metus nec, commodo congue est. Quisque consectetur dolor posuere arcu molestie, a volutpat lacus feugiat.</p>
-					</div>
-
-				</div>
-			</div>
-
-			<!-- Welcome Video Modal -->
-			<div class="modal video fade" id="welcome-video" tabindex="-1" role="dialog" aria-hidden="true">
-				<div class="modal-dialog">
-					<div class="modal-content">
-						<div class="modal-header">
-							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-							<h3 style="margin: 0;">Welcome to Your New Portal</h3>
-						</div>
-						<div class="modal-body">
-							<iframe width="560" height="315" src="//www.youtube.com/embed/jllOREEn3-c" frameborder="0" allowfullscreen=""></iframe>
-							<figcaption>See what's changed in the most recent release of the Customer Portal.</figcaption>
-						</div>
-					</div><!-- /.modal-content -->
-				</div><!-- /.modal-dialog -->
-			</div><!-- /.modal -->
 
 			<script type="text/javascript">
 				chrometwo_require(["jquery", "fitvids"], function($) {

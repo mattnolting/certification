@@ -1,4 +1,7 @@
 .page-certification {
+	input:focus, .btn:focus {
+		outline: none;
+	}
 
 	.portal-content-area {
 		background: none;
@@ -14,17 +17,6 @@
 		background: #fff;
 	}
 
-	.results {
-		.thumb {
-			max-width: 100px;
-
-			img {
-				max-width: 100%;
-				height: auto;
-			}
-		}
-	}
-
 	h1 {
 		font-weight: 700;
 	}
@@ -37,9 +29,36 @@
 		max-width: 300px;
 		height: auto;
 	}
+
+	// Product Page Components
+	//==================================================================*/
+	.call-to-actions {
+		@include rem('margin-top', 20px);
+		float: left;
+
+		.btn {
+			span, em, i {
+				text-transform: none;
+				font-weight: 100;
+			}
+		}
+	}
+
+	.product-image {
+		img {
+			max-height: 200px;
+			width: auto;
+		}
+
+		.thumb {
+			width: 33%;
+			float: left;
+		}
+	}
 }
 
 .top-page-wrap {
+	overflow: hidden;
 	background: url('../img/bg_cert.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -55,4 +74,119 @@
 	.version {
 		width: 50px;
 	}
+}
+
+.page-certification {
+
+	.title {
+		color: #646464;
+
+		h4 {
+			@include font-size(16px);
+			font-weight: 400;
+			line-height: 1;
+			margin-bottom: 4px;
+			color: #646464;
+		}
+
+		span {
+			@include font-size(13px);
+			font-weight: 100;
+		}
+	}
+
+	.results {
+
+		tbody {
+
+			tr {
+				td { @include rem('padding', 14px 26px); }
+
+				td.option { @include rem('padding', 34px 26px 14px); }
+			}
+		}
+
+		.thumb {
+			@include media-query (md) {
+				max-width: 200px;
+			}
+
+			a {
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+
+			img {
+				max-width: 100%;
+				height: auto;
+				max-height: 80px;
+			}
+		}
+	}
+
+	.sort-by {
+	}
+}
+
+.cert-header {
+	padding-bottom: 80px;
+}
+
+.btn.btn-simple {
+	@include font-size(12px);
+	text-transform: none;
+	font-weight: 100;
+	@include rem('padding', 4px 8px);
+	background: #f7f7f7;
+	color: #000000;
+}
+
+[draggable] {
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+	/* Required to make elements draggable in old WebKit */
+	-khtml-user-drag: element;
+	-webkit-user-drag: element;
+}
+.column {
+	height: 150px;
+	width: 150px;
+	float: left;
+	border: 2px solid #666666;
+	background-color: #ccc;
+	margin-right: 5px;
+	-webkit-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 3px #000;
+	-ms-box-shadow: inset 0 0 3px #000;
+	box-shadow: inset 0 0 3px #000;
+	text-align: center;
+	cursor: move;
+}
+.column header {
+	color: #fff;
+	text-shadow: #000 0 1px;
+	box-shadow: 5px;
+	padding: 5px;
+	background: -moz-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
+	background: -webkit-gradient(linear, left top, right top,
+			color-stop(0, rgb(0,0,0)),
+			color-stop(0.50, rgb(79,79,79)),
+			color-stop(1, rgb(21,21,21)));
+	background: -webkit-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
+	background: -ms-linear-gradient(left center, rgb(0,0,0), rgb(79,79,79), rgb(21,21,21));
+	border-bottom: 1px solid #ddd;
+	-webkit-border-top-left-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-ms-border-radius-topleft: 10px;
+	border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-ms-border-top-right-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-right-radius: 10px;
 }

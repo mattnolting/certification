@@ -3,12 +3,14 @@ $tr_background: #f7f7f7;
 table {
 
 	tr {
+		th, td {
+			@include rem('padding', 14px);
+		}
+
 		th {
 
 		}
-	}
 
-	tr {
 		td {
 
 		}
@@ -24,6 +26,10 @@ table {
 					color: $tr_background;
 				}
 			}
+		}
+
+		tbody {
+			tr { height: 105px; }
 		}
 
 		tr {
@@ -50,7 +56,9 @@ table {
 				}
 
 				&.option {
+					@include rem('padding-top', 34px);
 					border-left: none;
+					vertical-align: top;
 				}
 			}
 		}

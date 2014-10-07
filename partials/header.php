@@ -1,7 +1,16 @@
-<html class=" nimbus js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths contenteditable bgsizecover bgpositionshorthand bgpositionxy no-bgrepeatround no-bgrepeatspace boxsizing display-table cssfilters mediaqueries pointerevents lastchild no-csspositionsticky no-regions cssresize cssscrollbar no-supports subpixelfont dataview classlist no-createelement-attrs datalistelem no-ie8compat json scriptasync svgfilters datauri blobworkers" xmlns="http://www.w3.org/1999/xhtml" dir="ltr"><!--<![endif]--><head dir="ltr">
-	<script type="text/javascript" async="" src="//img.en25.com/i/elqCfg.min.js"></script><script type="text/javascript">
-		var siteMapState="home";
-	</script>
+<html lang="en" dir="ltr" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:og="http://ogp.me/ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" class="js js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths contenteditable bgsizecover bgpositionshorthand bgpositionxy no-bgrepeatround no-bgrepeatspace boxsizing display-table cssfilters mediaqueries pointerevents lastchild no-csspositionsticky no-regions cssresize cssscrollbar no-supports subpixelfont dataview classlist no-createelement-attrs datalistelem no-ie8compat json scriptasync svgfilters datauri blobworkers">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- metaInclude -->
+	<meta name="avalon-host-info" content="gss-webjava01">
+	<meta name="avalon-version" content="2.0.15.0-SNAPSHOT">
+	<meta name="google-site-verification" content="nP0a2DWUcOxjRgDDACHEbDptiGIGBrChbghrC0ZzcK0">
+	<!-- /metaInclude -->
+	<!-- ^ meta and X-UA-Compatible must come first -->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="cleartype" content="on">
@@ -14,28 +23,22 @@
 	<!-- /title -->
 	<!-- /_preInclude -->
 
-	<!-- metaInclude -->
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=10">
-	<meta name="avalon-host-info" content="gss-webjava01">
-	<meta name="avalon-version" content="2.0.14.0-SNAPSHOT">
-	<meta name="google-site-verification" content="nP0a2DWUcOxjRgDDACHEbDptiGIGBrChbghrC0ZzcK0">
-	<!-- /metaInclude -->
-
 	<!-- cssInclude -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
-	<link rel="shortcut icon" href="../../../avalon-docs/g/favicon.ico">
-	<link rel="stylesheet" type="text/css" media="screen, print" href="../../../avalon-docs/s/jquery-ui/cp/jquery-ui-1.8.7.custom.css?version=2.0.14.0-SNAPSHOT">
+	<link rel="shortcut icon" href="/webassets/avalon/g/favicon.ico">
+	<link rel="stylesheet" type="text/css" media="screen, print" href="../avalon-docs/s/jquery-ui/cp/jquery-ui-1.8.7.custom.css?version=2.0.15.0-SNAPSHOT">
 
 	<!-- TODO: What is pageCssLinks and do we still need it? -->
 
 
-	<link media="all" rel="stylesheet" type="text/css" href="../../../avalon-docs/j/lib/action-menu/css/style.css">
-	<link media="all" rel="stylesheet" type="text/css" href="../../../avalon-docs/chrome_themes/nimbus/css/master.css">
+	<link media="all" rel="stylesheet" type="text/css" href="/webassets/avalon/j/lib/action-menu/css/style.css">
+	<link media="all" rel="stylesheet" type="text/css" href="../../avalon-docs/chrome_themes/nimbus/css/master-blessed1.css">
+	<link media="all" rel="stylesheet" type="text/css" href="../../avalon-docs/chrome_themes/nimbus/css/master.css">
 
-	<link href="../../../avalon-docs/s/chosen.css?version=2.0.8.0" rel="stylesheet" type="text/css">
+	<link href="/webassets/avalon/s/chosen.css?version=2.0.8.0" rel="stylesheet" type="text/css">
 	<!--[if lte IE 9]>
-	<link media="all" rel="stylesheet" type="text/css" href="../../../../avalon-docs/chrome_themes/nimbus/css/ie.css"/>
+	<link media="all" rel="stylesheet" type="text/css" href="/chrome_themes/nimbus/css/ie.css" />
 	<![endif]-->
 
 
@@ -50,7 +53,7 @@
 			cspContext            : "/preview_jbossnetwork",
 			customerCenterContext : "/wapps",
 			lang                  : "en",
-			version               : "2.0.14.0-SNAPSHOT",
+			version               : "2.0.15.0-SNAPSHOT",
 			decorationWhitelist   : ["https://access.devgssci.devlab.phx1.redhat.com","https://rhn.devgssci.devlab.phx1.redhat.com", "docs.redhat.com"]
 		};
 
@@ -71,45 +74,21 @@
 		portal.analytics.shim.siteMapState = "home";
 
 	</script>
-	<script type="text/javascript" src="../../../../avalon-docs/j/lib/require.js?version=2.0.14.0-SNAPSHOT" data-main="/webassets/avalon/j/"></script>
+	<script type="text/javascript" src="../avalon-docs/j/lib/jquery.min.js?version=2.0.15.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="assets/js/modernizr.min.js"></script>
+	<script type="text/javascript" src="../avalon-docs/j/lib/require.js?version=2.0.15.0-SNAPSHOT" data-main="/webassets/avalon/j/"></script>
+	<script type="text/javascript" src="../avalon-docs/j/lib/bootstrap3.min.js?version=2.0.15.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 	<!-- TODO: can we please upgrade jquery?! -->
-	<script type="text/javascript" src="../../../../avalon-docs/j/lib/jquery-1.7.2.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="ajax_error_handler" src="../../../../avalon-docs/j/includes/chrometwo/ajax_error_handler.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="../../../../avalon-docs/j/lib/jquery-1.7.2.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/attributes" src="../../../../avalon-docs/j/includes/chrometwo/analytics/attributes.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="chrome_lib" src="../../../../avalon-docs/j/includes/chrometwo/chrome_lib.js?v=2.0.11"></script>
 	<script type="text/javascript">
 		/*
 		 * THIS IS NEEDED! Integrated apps include their own jQuery lib.
 		 * We need this *before* base.js so we can effectvley pass messages (trigger, bind) to base.js
 		 * *DO NOT* remove! window.jQuery the object is still accessible.
 		 */
-		var ajq = jQuery.noConflict();
+		window.ajq = $.noConflict();
 	</script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/jquery-ui-1.8.20.custom.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jsUri" src="../../../avalon-docs/j/lib/jsuri-1.1.1.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="../../../avalon-docs/j/lib/underscore-min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="user_info" src="../../../avalon-docs/j/includes/chrometwo/user_info.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/separators" src="../../../avalon-docs/j/includes/chrometwo/analytics/separators.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/adapters/omniture/old_fns" src="../../../avalon-docs/j/includes/chrometwo/analytics/adapters/omniture/old_fns.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="idle-timer" src="../../../avalon-docs/j/lib/idle-timer-1.0.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-blockUI" src="../../../avalon-docs/j/lib/jquery.blockUI.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-autoresize" src="../../../avalon-docs/j/lib/autoresize.jquery.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="portal_outage" src="../../avalon-docs/j/lib/outage/outageJson_en.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="decorate" src="../../../avalon-docs/j/includes/chrometwo/decorate.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modernizr" src="../../../avalon-docs/j/lib/modernizr.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nimbus/nav" src="../../../avalon-docs/chrome_themes/nimbus/js/nav.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eloqua-cfg" src="../../../avalon-docs/j/lib/eloqua/elqCfg.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery-ui" src="../../../avalon-docs/j/lib/jquery-ui-1.8.20.custom.min.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="../../../avalon-docs/j/lib/bootstrap.min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="load_html" src="../../../avalon-docs/j/includes/chrometwo/load_html.js?v=2.0.11"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/bootstrap3.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/idle-timer-1.0.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/jquery.blockUI.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/jquery.equalheights.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/autoresize.jquery.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/lib/jsuri-1.1.1.min.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/includes/chrometwo/inject.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/includes/chrometwo/decorate.js?version=2.0.14.0-SNAPSHOT"></script>
-	<script type="text/javascript" src="../../../avalon-docs/j/outage/outageJson_en.js?version=2.0.14.0-SNAPSHOT"></script>
+	<script type="text/javascript" src="/webassets/avalon/j/outage/outageJson_en.js?version=2.0.15.0-SNAPSHOT"></script>
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -118,41 +97,27 @@
 	<![endif]-->
 
 
-	<script type="text/javascript" src="../../../avalon-docs/chrome_themes/nimbus/js/base.js?version=2.0.14.0-SNAPSHOT"></script>
 	<!-- /jsInclude -->
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/main" src="../../../avalon-docs/j/includes/chrometwo/analytics/main.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="google_remarketing" src="../../../avalon-docs/j/includes/google_remarketing.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="fitvids" src="../../../avalon-docs/j/lib/jquery.fitvids.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="inject" src="../../../avalon-docs/j/includes/chrometwo/inject.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="nimbus/utility_tray" src="../../../avalon-docs/chrome_themes/nimbus/js/utility_tray.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="equalHeights" src="https://access.devgssci.devlab.phx1.redhat.com/webassets/avalon/j/lib/jquery.equalheights.js?v=2.0.11"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="eloqua-img" src="https://access.devgssci.devlab.phx1.redhat.com/webassets/avalon/j/lib/eloqua/elqImg.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="menu_aim" src="../../../avalon-docs/j/lib/jquery.menu-aim.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="scroll_to_fixed" src="../../../avalon-docs/j/lib/jquery-scrolltofixed-min.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/url" src="../../../avalon-docs/j/includes/chrometwo/analytics/url.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="analytics/sites/portal/urls" src="../../../avalon-docs/j/includes/chrometwo/analytics/sites/portal/urls.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="s_code" src="../../../avalon-docs/j/lib/s_code.js?v=2.0.11"></script>
-	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/reset.css" rel="stylesheet" type="text/css">
-	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/page.css" rel="stylesheet" type="text/css">
-	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/jive-snapshot-reset.css" rel="stylesheet" type="text/css">
-	<link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/dompicker.css" rel="stylesheet" type="text/css">
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="base" src="../../../avalon-docs/chrome_themes/nimbus/js/base.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="../../../avalon-docs/j/lib/text.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="survey" src="../../../avalon-docs/j/includes/survey.js?v=2.0.11"></script>
-	<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="../../../avalon-docs/j/lib/moment.min.js?v=2.0.11"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<link rel="stylesheet" href="assets/css/main.min.css"/>
-</head>
 
-<body class="sfdc_available page-certification en loggedOut" dir="ltr">
+	<script type="text/javascript">
+		var siteMapState="home";
+	</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common" src="/webassets/avalon/j/common.min.js?v=2.0.11"></script><link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/reset.css" rel="stylesheet" type="text/css"><link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/page.css" rel="stylesheet" type="text/css"><link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/jive-snapshot-reset.css" rel="stylesheet" type="text/css"><link href="chrome-extension://bmcnakllnfgdjlalfffanmfhampcoalm/Extension/css/dompicker.css" rel="stylesheet" type="text/css"><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style>
+	<link media="all" rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+</head>
+<body class="portal-page page-certification">
+<?php include('partials/filters/vendors.php'); ?>
+<?php include('partials/filters/certified-for.php'); ?>
+
 <div id="page-wrap" class="page-wrap">
 <div class="top-page-wrap">
 <!--googleoff: all-->
 
 <header class="masthead"><div class="mobile-bar-wrap hidden-sm hidden-md hidden-lg">
 	<a class="logo" href="https://access.devgssci.devlab.phx1.redhat.com/">
-		<span class="logo-crop"><img src="https://access.devgssci.devlab.phx1.redhat.com/chrome_themes/nimbus/img/l_redhat-lg.png"></span>
+		<span class="logo-crop"><img src="assets/img/l_redhat-lg.png"></span>
 		<span class="site-title"><span>Customer </span><span>Portal</span></span>
 	</a>
-	<button id="mobile-nav-btn" class="btn btn-navbar" data-toggle="collapse" data-target="#mobile-nav">
+	<button id="mobile-nav-btn" class="btn btn-navbar collapse in" data-toggle="collapse" data-target="#mobile-nav" style="height: auto;">
 		<span class="web-icon-mobile-menu"></span>
 		<span class="link-text">global.menu</span>
 	</button>
@@ -163,8 +128,8 @@
 </div>
 
 <div class="utility-wrap">
-	<div class="toolbar-container">
-		<div class="toolbar visible-sm visible-md visible-lg">
+	<div class="utility-container">
+		<div class="utility-bar visible-sm visible-md visible-lg">
 			<menu class="top-nav">
 				<ul>
 					<li id="nav-subscription"><a class="top-nav-subscriptions" href="https://access.devgssci.devlab.phx1.redhat.com/management/">Subscriptions</a></li>
@@ -205,14 +170,14 @@
 						<form class="ng-pristine ng-valid topSearchForm" id="topSearchForm" name="topSearchForm" action="/search/browse/search/" method="get" enctype="application/x-www-form-urlencoded">
 							<div class="input-group">
 
-								<a id="searchClose_topSearchInput" class="close hide"><span class="web-icon-close" title="Close"></span></a><a id="searchClose_topSearchInput" class="close hide"><span class="web-icon-close" title="Close"></span></a><input class="form-control searchField ui-autocomplete-input" id="topSearchInput" name="keyword" value="" placeholder="Enter Your Search Term" type="text" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+								<a id="searchClose_topSearchInput" class="close hide"><span class="web-icon-close" title="Close"></span></a><input class="form-control searchField ui-autocomplete-input" id="topSearchInput" name="keyword" value="" placeholder="Enter Your Search Term" type="text" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
 				            	<span class="input-group-btn">
 				                	<button type="submit" class="btn btn-primary">Search</button>
 				            	</span>
 							</div>
 						</form>
 					</div>
-					<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 3; top: 0px; left: 0px; display: none;"></ul><ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 3; top: 0px; left: 0px; display: none;"></ul></div>
+					<ul class="ui-autocomplete ui-menu ui-widget ui-widget-content ui-corner-all" role="listbox" aria-activedescendant="ui-active-menuitem" style="z-index: 3; top: 0px; left: 0px; display: none;"></ul></div>
 				<div id="account-info" class="utility-link account-info">
 					<div class="content">
 
@@ -221,7 +186,7 @@
 							<h2 class="utility-header">Log in to Your Red Hat Account</h2>
 							<div class="row col-border-row">
 								<div class="col-sm-6 col-border">
-									<p><a href="https://access.devgssci.devlab.phx1.redhat.com/login?redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home?redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="accountLogin" class="btn btn-primary">Log In</a></p>
+									<p><a href="https://access.devgssci.devlab.phx1.redhat.com/login?redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="accountLogin" class="btn btn-primary">Log In</a></p>
 									<p>Your Red Hat account gives you access to your profile, preferences, and services, depending on your status.</p>
 								</div>
 								<div class="col-sm-6 col-border col-border-left">
@@ -283,20 +248,20 @@
 						<div class="row" id="localesMenu">
 							<div class="col-sm-4">
 								<ul class="reset">
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=en&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="en" class="selected">English</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=es&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="es">español</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=de&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="de">Deutsch</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=it&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="it">italiano</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ko&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="ko">한국어</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=en&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="en" class="selected">English</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=es&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="es">español</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=de&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="de">Deutsch</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=it&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="it">italiano</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ko&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="ko">한국어</a></li>
 								</ul>
 							</div>
 							<div class="col-sm-4">
 								<ul class="reset">
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=fr&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="fr">français</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ja&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="ja">日本語</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=pt&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="pt">português</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=zh_CN&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="zh_CN">中文 (中国)</a></li>
-									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ru&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/home" id="ru">русский</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=fr&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="fr">français</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ja&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="ja">日本語</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=pt&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="pt">português</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=zh_CN&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="zh_CN">中文 (中国)</a></li>
+									<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ru&amp;redirectTo=https%3A//access.devgssci.devlab.phx1.redhat.com/products/" id="ru">русский</a></li>
 								</ul>
 							</div>
 						</div>
@@ -308,19 +273,19 @@
 </div>
 <div id="scroll-anchor" class="affix-top">
 </div>
-<div id="header-nav" class="header-nav affix-top visible-sm visible-md visible-lg">
+<div id="header-nav" class="header-nav visible-sm visible-md visible-lg affix-top">
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
 
 				<a href="https://access.devgssci.devlab.phx1.redhat.com/" class="logo">
-					<span class="logo-crop"><img src="https://access.devgssci.devlab.phx1.redhat.com/chrome_themes/nimbus/img/l_redhat-lg.png"></span>
+					<span class="logo-crop"><img src="assets/img/l_redhat-lg.png"></span>
 					<span class="site-title"><span>Customer </span><span>Portal</span></span>
 				</a>
 
 				<menu class="primary-nav visible-sm visible-md visible-lg">
 					<ul>
-						<li id="nav-products"><a class="products" data-link="mega" data-target="products-menu" href="https://access.devgssci.devlab.phx1.redhat.com/products/">Products &amp; Services</a></li>
+						<li id="nav-products" class="on"><a class="products" data-link="mega" data-target="products-menu" href="https://access.devgssci.devlab.phx1.redhat.com/products/">Products &amp; Services</a></li>
 						<li id="nav-tools"><a class="tools" data-link="mega" data-target="tools-menu" href="https://access.devgssci.devlab.phx1.redhat.com/tools/">Tools</a></li><!-- #Need URL -->
 						<li id="nav-security"><a class="security" data-link="mega" data-target="security-menu" href="https://access.devgssci.devlab.phx1.redhat.com/security/">Security</a></li>
 						<li id="nav-community"><a class="community" data-link="mega" data-target="community-menu" href="https://access.devgssci.devlab.phx1.redhat.com/community/">Community</a></li><!-- #Need URL -->
@@ -339,21 +304,62 @@
 			<menu>
 				<ul class="mobile-utility">
 					<li>
-						<a class="btn-profile" data-target="#account-info">
+						<a class="btn-profile" data-target="#account-info-mobile">
 							<span class="web-icon-user"></span>
 							<span class="link-text">Account</span>
 						</a>
 					</li><!-- white space inline
 					--><li>
-						<a class="btn-language" data-target="#language">
+						<a class="btn-language" data-target="#language-mobile">
 							<span class="web-icon-globe"></span>
 							<span class="link-text">Language</span>
 						</a>
 					</li>
 				</ul>
-				<ul class="nav">
-					<li id="mnav-home" class="on"><a href="https://access.devgssci.devlab.phx1.redhat.com/">Home</a></li>
-					<li id="mnav-products"><a href="https://access.devgssci.devlab.phx1.redhat.com/products/">Products &amp; Services</a></li>
+				<div id="account-info-mobile" class="mobile-utility-wrap">
+					<!-- Account Unauthenticated -->
+					<div id="mobile-accountLinksLoggedOut" class="unauthenticated" style="display: block;">
+						<ul class="nav mobile-utility-nav">
+							<li><a href="https://access.devgssci.devlab.phx1.redhat.com/login">Log In</a></li>
+							<li><a href="https://www.redhat.com/wapps/ugc/register.html">Register</a></li>
+						</ul>
+					</div>
+					<!-- Account Authenticated -->
+					<div id="mobile-accountLinksLoggedIn" class="authenticated">
+						<div class="account-info" id="mobile-accountUser">
+							<div class="account-name"><strong id="mobile-userFullName"></strong></div>
+							<div class="account-org"><span id="mobile-userOrg"></span></div>
+							<div class="account-number mobile-accountNumber"><span class="property">Red Hat Account Number:</span> <span class="value"></span></div>
+						</div>
+						<ul class="nav mobile-utility-nav">
+							<li><a href="https://www.redhat.com/wapps/ugc/protected/account.html">Account Details</a></li>
+							<li><a href="https://www.redhat.com/wapps/ugc/protected/prefs.html">Newsletter and Contact Preferences</a></li>
+							<li><a href="https://www.redhat.com/wapps/ugc/protected/usermgt/userList.html">User Management</a></li>
+							<li><a href="https://www.redhat.com/wapps/ugc/protected/personalInfo.html">Account Maintenance</a></li>
+							<li><a href="https://access.devgssci.devlab.phx1.redhat.com/user">My Profile</a></li>
+							<li><a href="https://access.devgssci.devlab.phx1.redhat.com/user" id="userNotificationsLink">Notifications</a></li>
+							<li><a href="https://access.devgssci.devlab.phx1.redhat.com/help/">Help</a></li>
+							<li class="logout"><a href="https://access.devgssci.devlab.phx1.redhat.com/logout">Log Out</a>
+							</li></ul>
+					</div>
+				</div>
+				<div id="language-mobile" class="mobile-utility-wrap">
+					<ul class="nav mobile-utility-nav">
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=en" id="mobile-en" class="selected">English</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=es" id="mobile-es">español</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=de" id="mobile-de">Deutsch</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=it" id="mobile-it">italiano</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ko" id="mobile-ko">한국어</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=fr" id="mobile-fr">français</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ja" id="mobile-ja">日本語</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=pt" id="mobile-pt">português</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=zh_CN" id="mobile-zh_CN">中文 (中国)</a></li>
+						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/changeLanguage?language=ru" id="mobile-ru">русский</a></li>
+					</ul>
+				</div>
+				<ul class="main-mobile-nav nav">
+					<li id="mnav-home"><a href="https://access.devgssci.devlab.phx1.redhat.com/">Home</a></li>
+					<li id="mnav-products" class="on"><a href="https://access.devgssci.devlab.phx1.redhat.com/products/">Products &amp; Services</a></li>
 					<li id="mnav-tools"><a href="https://access.devgssci.devlab.phx1.redhat.com/tools/">Tools</a></li>
 					<li id="mnav-security"><a href="https://access.devgssci.devlab.phx1.redhat.com/security/">Security</a></li>
 					<li id="mnav-community"><a href="https://access.devgssci.devlab.phx1.redhat.com/community/">Community</a></li><!-- #Need URL -->
@@ -503,7 +509,7 @@
 
 		<div class="col-md-6 col-sm-4 pull-right">
 			<div class="row">
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<h3 class="nav-title">Ecosystem</h3>
 					<ul>
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/certification">Overview</a></li>
@@ -512,14 +518,14 @@
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/search/browse/certified-cloud-providers#?">Certified Cloud Providers</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<h3 class="nav-title">Knowledge</h3>
 					<ul>
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/search/browse/search/">Expert Advice</a></li>
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/documentation/">Product Documentation</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-4">
+				<div class="col-md-4">
 					<h3 class="nav-title">Support Policies</h3>
 					<ul>
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/support/offerings/production/">Production Support</a></li>
@@ -578,7 +584,7 @@
 	<div class="row">
 		<nav class="col-sm-12 basic">
 			<div class="row">
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-4">
 					<h3 class="nav-title">Security Updates</h3>
 					<ul>
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/security/cve">Red Hat CVE Database</a></li>
@@ -587,7 +593,7 @@
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/security/updates/advisory/">How to Get Notified</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-4">
 					<h3 class="nav-title">Red Hat Product Security</h3>
 					<ul>
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/security/team/">About</a></li>
@@ -595,7 +601,7 @@
 						<li><a href="https://access.devgssci.devlab.phx1.redhat.com/security/team/contact/">Contact</a></li>
 					</ul>
 				</div>
-				<div class="col-sm-3">
+				<div class="col-md-3 col-sm-4">
 					<h3 class="nav-title">Resources</h3>
 					<ul>
 						<li><a href="https://www.redhat.com/security/data/metrics/">Security Measurement</a></li>
@@ -659,7 +665,20 @@
 </menu>
 </div>
 
-<div id="site-section"></div>
-
 </header>
 <!--googleon: all-->
+
+<main class="portal-content-area" role="main">
+	<div id="content" class="main-content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 cert-header">
+					<div class="home-security">
+						<h2 class="lead-in lead-in-white">Certifications By Red Hat</h2>
+						<p class="headline headline-white">Tested. Supported. Certified.</p>
+					</div>
+					<?php include('partials/search.php'); ?>
+					<?php include('partials/cert-filters.php'); ?>
+				</div>
+			</div>
+		</div>

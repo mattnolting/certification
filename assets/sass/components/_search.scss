@@ -10,13 +10,15 @@
 	}
 
 	@include media-query (md) {
-		position: relative;
-		float: right;
-		bottom: auto;
+		bottom: 0;
+		right: 15px;
+		z-index: 9999;
 	}
 
 	input[type="search"] {
+		height: auto;
 		background: rgba(255,255,255,.8);
 		border: 4px solid #ddd;
+		border-bottom-width: 1px;
 	}
 }
