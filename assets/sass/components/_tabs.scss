@@ -38,6 +38,44 @@
 			font-weight: 400;
 		}
 	}
+
+	table {
+		border-bottom: 4px solid #e2e2e2;
+
+		thead {
+			background: #7a858b;
+			color: #fff;
+			@include font-size(14px);
+
+			tr {
+				th {
+					font-weight: 500;
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				background: #fff;
+
+				td {
+
+				}
+			}
+
+			tr:nth-child(even) {
+				background: #F2F5F7;
+			}
+
+			strong {
+				color: #C00;
+			}
+		}
+	}
+
+	table + h2.section-title {
+		margin-top: 20px;
+	}
 }
 
 .tab-pane {

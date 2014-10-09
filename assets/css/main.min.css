@@ -110,7 +110,8 @@ table.results tr {
 
 .cert-list thead {
   background: #4c4c4c;
-  color: #fff; }
+  color: #fff;
+  border: 1px solid #eee; }
 .cert-list .version {
   width: 50px; }
 
@@ -380,6 +381,25 @@ table.results tr {
     .tabs-gray .tab-content a {
       color: #08C0FC;
       font-weight: 400; }
+  .tabs-gray table {
+    border-bottom: 4px solid #e2e2e2; }
+    .tabs-gray table thead {
+      background: #7a858b;
+      color: #fff;
+      font-size: 14px;
+      font-size: 0.875rem;
+      line-height: 19.6px;
+      line-height: 1.225rem; }
+      .tabs-gray table thead tr th {
+        font-weight: 500; }
+    .tabs-gray table tbody tr {
+      background: #fff; }
+    .tabs-gray table tbody tr:nth-child(even) {
+      background: #F2F5F7; }
+    .tabs-gray table tbody strong {
+      color: #C00; }
+  .tabs-gray table + h2.section-title {
+    margin-top: 20px; }
 
 .tab-pane {
   font-size: 12px;

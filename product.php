@@ -5,10 +5,10 @@
 				<a class="" href="listing.php">< Back to list</a>
 				<div class="row">
 					<div class="col-sm-6 col-md-8">
-						<h1>Poweredge 1650</h1>
 						<div class="logo logo-primary">
 							<img src="assets/img/l_dell.png" alt="Dell" />
 						</div>
+						<h1>Poweredge 1650</h1>
 						<div class="call-to-actions">
 							<a class="btn" href="http://google.com" taget="_blank">Learn More <span>from Dell</span></a>
 							<a class="btn btn-primary" href="http://google.com" taget="_blank">Buy <span>from Dell</span></a>
@@ -24,20 +24,23 @@
 				<div class="row">
 					<div class="col-md-9">
 						<ul class="nav nav-tabs tabs-gray" role="tablist">
-							<li class="active"><a href="#overview" role="tab" data-toggle="tab">Overview</a></li>
+							<li><a href="#overview" role="tab" data-toggle="tab">Overview</a></li>
 							<li><a href="#features" role="tab" data-toggle="tab">Features & Benefits</a></li>
-							<li><a href="#certification" role="tab" data-toggle="tab">Certifications</a></li>
+							<li class="active"><a href="#certification" role="tab" data-toggle="tab">Certifications</a></li>
 							<li><a href="#support" role="tab" data-toggle="tab">Support</a></li>
 						</ul>
+
 						<div class="tabs-container tabs-gray">
 							<div class="tab-content">
-								<div id="overview" class="tab-pane large overview active">
-<!--									<h2 class="section-title"><i class="fa fa-flag"></i>Standarized Sub-title</h2>-->
+
+							<!-- Overview Tab Content-->
+								<div id="overview" class="tab-pane large overview">
 									<p class="intro">Aenean ac nibh vel nibh porta rhoncus id non lectus. Etiam commodo vel augue non pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec malesuada, sapien id volutpat aliquam, metus dolor porta nibh, a porttitor sapien urna eget nisl. Morbi dictum urna pharetra leo suscipit, vel dictum tellus congue. Nullam at nunc libero. Curabitur at elit libero.</p>
 									<p>Aenean ac nibh vel nibh porta rhoncus id non lectus. Etiam commodo vel augue non pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec malesuada, sapien id volutpat aliquam, metus dolor porta nibh, a porttitor sapien urna eget nisl. Morbi dictum urna pharetra leo suscipit, vel dictum tellus congue. Nullam at nunc libero. Curabitur at elit libero. Curabitur sit amet arcu gravida, lacinia ante laoreet, consequat mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam malesuada, lectus at elementum dictum, libero justo malesuada tellus, quis lacinia purus odio ut urna.</p>
 									<p>Aenean ac nibh vel nibh porta rhoncus id non lectus. Etiam commodo vel augue non pretium. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec malesuada, sapien id volutpat aliquam, metus dolor porta nibh, a porttitor sapien urna eget nisl. Morbi dictum urna pharetra leo suscipit, vel dictum tellus congue. Nullam at nunc libero. Curabitur at elit libero. Curabitur sit amet arcu gravida, lacinia ante laoreet, consequat mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam malesuada, lectus at elementum dictum, libero justo malesuada tellus, quis lacinia purus odio ut urna.</p>
 								</div>
 
+							<!-- Features Tab Content-->
 								<div id="features" class="tab-pane">
 									<h2 class="section-title"><i class="fa fa-key"></i>Key Features and Benefits</h2>
 										<ul class="row">
@@ -100,7 +103,9 @@
 										</div>
 									</div>
 								</div>
-								<div id="certification" class="tab-pane fade">
+
+							<!-- Certification Tab Content-->
+								<div id="certification" class="tab-pane active">
 									<h2 class="section-title"><i class="fa fa-certificate"></i> Red Hat Certifications</h2>
 									<table>
 										<thead>
@@ -111,23 +116,57 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td>Red Hat Enterprise Linux Openstack Platform 4<br />
-													<span>Base: Red Hat Enterprise Linux (i386, x86-64) 6.2-6.x</span>
-
+												<td>
+													Red Hat Enterprise Linux Openstack Platform 4<br />
+													<strong>Base:</strong> Red Hat Enterprise Linux (i386, x86-64) 6.2-6.x
 												</td>
 												<td>
 													Certified
-													<ul></ul>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													Red Hat Enterprise Linux Openstack Platform 4<br />
+													<strong>Base:</strong> Red Hat Enterprise Linux (i386, x86-64) 6.2-6.x
+												</td>
+												<td>
+													Certified
 												</td>
 											</tr>
 										</tbody>
 									</table>
 									<h2 class="section-title"><i class="fa fa-certificate"></i> Third Party Industry Certifications</h2>
-									<ul>
-										<li><h4><i class="fa fa-caret-right"></i> Item</h4></li>
-										<li><h4><i class="fa fa-caret-right"></i> Item</h4></li>
-									</ul>
+									<table>
+										<thead>
+										<tr>
+											<th>Target Product</th>
+											<th>Level</th>
+										</tr>
+										</thead>
+										<tbody>
+										<tr>
+											<td>
+												Red Hat Enterprise Linux Openstack Platform 4<br />
+												<strong>Base:</strong> Red Hat Enterprise Linux (i386, x86-64) 6.2-6.x
+											</td>
+											<td>
+												Certified
+											</td>
+										</tr>
+										<tr>
+											<td>
+												Red Hat Enterprise Linux Openstack Platform 4<br />
+												<strong>Base:</strong> Red Hat Enterprise Linux (i386, x86-64) 6.2-6.x
+											</td>
+											<td>
+												Certified
+											</td>
+										</tr>
+										</tbody>
+									</table>
 								</div>
+
+							<!-- Support Tab Content-->
 								<div id="support" class="tab-pane fade">
 									<h2 class="section-title"><i class="fa fa-support"></i>Support Subtitle</h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa cum dolorum id illum impedit libero magnam maxime nisi nobis obcaecati praesentium, quaerat repellendus sint veritatis. Aliquid eum reprehenderit rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa cum dolorum id illum impedit libero magnam maxime nisi nobis obcaecati praesentium, quaerat repellendus sint veritatis. Aliquid eum reprehenderit rerum!</p>
