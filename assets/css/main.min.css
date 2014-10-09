@@ -242,20 +242,23 @@ table.results tr {
       position: absolute;
       left: 15px;
       bottom: 0; } }
+  @media (min-width: 992px) {
+    .cert-filters {
+      width: 75%; } }
   .cert-filters .filter-group {
     display: none;
     position: relative;
     width: 100%; }
     @media (min-width: 768px) {
       .cert-filters .filter-group {
-        width: 24%;
+        width: 33%;
         margin-left: 1.3333%;
         float: left; }
         .cert-filters .filter-group:first-child {
           margin-left: 0; } }
     @media (min-width: 992px) {
       .cert-filters .filter-group {
-        width: 208px;
+        width: 268px;
         margin-right: 12px; } }
     .cert-filters .filter-group:hover .title:hover {
       background: white; }
@@ -433,19 +436,18 @@ table.results tr {
 
 .search-certification {
   margin-bottom: 12px;
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.75rem;
+  z-index: 9999; }
   @media (min-width: 768px) {
     .search-certification {
       position: absolute;
       right: 0;
       bottom: 70px;
-      z-index: 999;
       margin-bottom: 0; } }
   @media (min-width: 992px) {
     .search-certification {
       bottom: 0;
-      right: 15px;
-      z-index: 9999; } }
+      right: 15px; } }
   .search-certification input[type="search"] {
     height: auto;
     background: rgba(255, 255, 255, 0.8);
@@ -504,17 +506,6 @@ table.results tr {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; }
-    .filter-list .btn-filter:hover {
-      color: #fff;
-      background: #a6a6a6; }
-    @media (min-width: 992px) {
-      .filter-list .btn-filter {
-        width: 49%;
-        margin-left: 2%;
-        float: left; }
-        .filter-list .btn-filter:nth-child(even) {
-          margin-left: 0;
-          clear: left; } }
     .filter-list .btn-filter i {
       top: 6px; }
 

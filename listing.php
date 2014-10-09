@@ -48,32 +48,18 @@
 								</div>
 						</aside>
 						<aside id="vendor" class="filter-list">
-							<h3 class="title">Vendor</h3>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox" checked>Show All Vendors</label>
-								</label>
-							</div>
+							<h3 class="title" data-toggle="modal" data-target="#vendor">Vendor <i class="fa fa-edit pull-right"></i></h3>
 							<div class="selected-filters">
-								<button class="btn filter-control" data-toggle="modal" data-target="#vendor">Launch Vendor Filters<i class="fa fa-edit"></i></button>
-								<button class="btn btn-filter">Nelson Van Buren of Hitachi<i class="fa fa-times-circle-o"></i></button>
-								<button class="btn btn-filter">Hitachi<i class="fa fa-times-circle-o"></i></button>
-								<button class="btn btn-filter">Dell<i class="fa fa-times-circle-o"></i></button>
-								<button class="btn btn-filter">Acer<i class="fa fa-times-circle-o"></i></button>
-								<button class="btn btn-filter">IBM<i class="fa fa-times-circle-o"></i></button>
+<!--								<button class="btn btn-filter">Nelson Van Buren of Hitachi</button>-->
+<!--								<button class="btn btn-filter">Hitachi</button>-->
+<!--								<button class="btn btn-filter">Dell</button>-->
+<!--								<button class="btn btn-filter">Acer</button>-->
+<!--								<button class="btn btn-filter">IBM</button>-->
 							</div>
 						</aside>
 
 						<aside id="vendor" class="filter-list">
-							<h3 class="title">Certified For</h3>
-							<div class="checkbox">
-								<label>
-									<input type="checkbox" checked>Show All Environments</label>
-								</label>
-							</div>
-							<div class="selected-filters">
-								<button class="btn filter-control" data-toggle="modal" data-target="#environments">Launch Environment Filters<i class="fa fa-edit"></i></button>
-							</div>
+							<h3 class="title" data-toggle="modal" data-target="#environments">Certified For<i class="fa fa-edit pull-right"></i></h3>
 						</aside>
 					</div>
 					<div class="col-sm-9">

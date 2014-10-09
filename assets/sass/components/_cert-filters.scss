@@ -10,6 +10,10 @@
 		left: 15px;
 		bottom: 0;
 	}
+	
+	@include media-query (md) {
+		width: 75%;
+	}
 
 	.filter-group {
 		display: none;
@@ -17,7 +21,7 @@
 		width: 100%;
 
 		@include media-query (sm) {
-			width: 24%;
+			width: 33%;
 			margin-left: 1.3333%;
 			float: left;
 
@@ -27,7 +31,7 @@
 		}
 
 		@include media-query (md) {
-			width: 208px;
+			width: 268px;
 			margin-right: 12px;
 		}
 

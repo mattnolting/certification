@@ -152,18 +152,14 @@
 							<thead>
 								<tr>
 									<th>
-										Certifications
-									</th>
-									<th class="version">
-										Version
+										Red Hat Certifications
 									</th>
 								</tr>
 							</thead>
 							<tbody>
-								<?php for($i=0; $i<10; $i++): ?>
+								<?php for($i=0; $i<6; $i++): ?>
 								<tr>
-									<td class="cert">Red Hat Linux (i386)</td>
-									<td class="version">5.x</td>
+									<td class="cert">Red Hat Enterprise Linux (i386)&nbsp;<span class="version">5.x</span></td>
 								</tr>
 								<?php endfor; ?>
 							</tbody>

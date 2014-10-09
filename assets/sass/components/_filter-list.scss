@@ -56,21 +56,21 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 
-		&:hover {
-			color: #fff;
-			background: #a6a6a6;
-		}
-
-		@include media-query (md) {
-			width: 49%;
-			margin-left: 2%;
-			float: left;
-
-			&:nth-child(even) {
-				margin-left: 0;
-				clear: left;
-			}
-		}
+//		&:hover {
+//			color: #fff;
+//			background: #a6a6a6;
+//		}
+//
+//		@include media-query (md) {
+//			width: 49%;
+//			margin-left: 2%;
+//			float: left;
+//
+//			&:nth-child(even) {
+//				margin-left: 0;
+//				clear: left;
+//			}
+//		}
 
 		i { top: 6px; }
 	}

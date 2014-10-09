@@ -16,7 +16,7 @@ $(document).ready(function($){
 		browseByList.fadeToggle();
 		$('#' + target).show();
 		subFilter.not('#' + target).hide();
-		$('.lead-in').html('Currently browsing by: ' + content);
+		//$('.lead-in').html('Currently browsing by: ' + content);
 	});
 
 	subLink.click(function(){
@@ -24,7 +24,7 @@ $(document).ready(function($){
 
 		$(this).find('ul').show();
 		$('#current').show().find('.title').html(content);
-		$('.headline').html(content);
+		//$('.headline').html(content);
 
 		subLink.parent().fadeOut();
 	});
@@ -57,5 +57,5 @@ $(document).ready(function($){
 		});
 	}
 
-	filterResults();
+	//filterResults();
 });

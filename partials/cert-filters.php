@@ -11,9 +11,9 @@
 		<div class="title">Ecosystem</div>
 		<ul>
 			<li data-target="rhel">Red Hat Enterprise Linux</li>
-			<li data-target="rhobs">Red Hat Openshift Business</li>
+			<li data-target="rhobs">Red Hat Enterprise Linux OpenStack Platform</li>
 			<li data-target="rhev">Red Hat Enterprise Virtualization</li>
-			<li data-target="jboss">jBoss</li>
+			<li data-target="jboss">JBoss Enterprise Middleware</li>
 		</ul>
 	</div>
 	<div id="category" class="filter-group category sub">

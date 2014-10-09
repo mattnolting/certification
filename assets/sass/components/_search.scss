@@ -1,18 +1,17 @@
 .search-certification {
 	@include rem('margin-bottom', 12px);
+	z-index: 9999;
 
 	@include media-query (sm) {
 		position: absolute;
 		right: 0;
 		bottom: 70px;
-		z-index: 999;
 		margin-bottom: 0;
 	}
 
 	@include media-query (md) {
 		bottom: 0;
 		right: 15px;
-		z-index: 9999;
 	}
 
 	input[type="search"] {
