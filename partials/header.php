@@ -677,8 +677,49 @@
 						<h2 class="lead-in lead-in-white">Certifications By Red Hat</h2>
 						<p class="headline headline-white">Tested. Supported. Certified.</p>
 					</div>
-					<?php include('partials/search.php'); ?>
-					<?php include('partials/cert-filters.php'); ?>
+					<div id="search" class="search search-certification">
+						<input type="search" placeholder="Search" />
+					</div>
+					<menu id="cert-filters" class="cert-filters">
+						<div class="filter-group browse-by">
+							<div class="title">Browse by:</div>
+							<ul>
+								<li data-target="ecosystem">Ecosystem</li>
+								<li data-target="category">Category</li>
+								<li data-target="vendor">Vendor</li>
+							</ul>
+						</div>
+						<div id="ecosystem" class="filter-group ecosystem sub">
+							<div class="title">Ecosystem</div>
+							<ul>
+								<li data-target="rhel">Red Hat Enterprise Linux</li>
+								<li data-target="rhobs">Red Hat Enterprise Linux OpenStack Platform</li>
+								<li data-target="rhev">Red Hat Enterprise Virtualization</li>
+								<li data-target="jboss">JBoss Enterprise Middleware</li>
+							</ul>
+						</div>
+						<div id="category" class="filter-group category sub">
+							<div class="title">Category</div>
+							<ul>
+								<li data-target="#">Category One</li>
+								<li data-target="#">Category Two</li>
+								<li data-target="#">Category Three</li>
+								<li data-target="#">Category Four</li>
+							</ul>
+						</div>
+						<div id="vendor" class="filter-group vendor sub">
+							<div class="title">Vendors</div>
+							<ul>
+								<li data-target="#">Category One</li>
+								<li data-target="#">Category Two</li>
+								<li data-target="#">Category Three</li>
+								<li data-target="#">Category Four</li>
+							</ul>
+						</div>
+						<div id="current" class="current filter-group">
+							<div class="title">test</div>
+						</div>
+					</menu>
 				</div>
 			</div>
 		</div>

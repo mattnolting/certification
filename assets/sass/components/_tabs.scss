@@ -40,7 +40,7 @@
 	}
 
 	table {
-		border-bottom: 4px solid #e2e2e2;
+//		border-bottom: 4px solid #e2e2e2;
 
 		thead {
 			background: #7a858b;
@@ -57,14 +57,11 @@
 		tbody {
 			tr {
 				background: #fff;
+				border-bottom: 1px solid #efefef;
 
 				td {
 
 				}
-			}
-
-			tr:nth-child(even) {
-				background: #F2F5F7;
 			}
 
 			strong {

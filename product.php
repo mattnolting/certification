@@ -169,16 +169,18 @@
 							<!-- Support Tab Content-->
 								<div id="support" class="tab-pane fade">
 									<h2 class="section-title"><i class="fa fa-support"></i>Support Subtitle</h2>
+									<h3 class="phone"><i class="fa fa-caret-phone"></i>&nbsp;919-123-4567</h3>
+
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa cum dolorum id illum impedit libero magnam maxime nisi nobis obcaecati praesentium, quaerat repellendus sint veritatis. Aliquid eum reprehenderit rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa cum dolorum id illum impedit libero magnam maxime nisi nobis obcaecati praesentium, quaerat repellendus sint veritatis. Aliquid eum reprehenderit rerum!</p>
 									<ul class="row">
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Support Center URL</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Support contact url</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Support details</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Support email address</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Support phone</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Support kbase</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Privacy policy</a></h4></li>
-										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i> Terms url</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Support Center URL</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Support contact url</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Support details</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Support email address</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Support phone</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Support kbase</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Privacy policy</a></h4></li>
+										<li class="col-sm-6"><h4><a href="#"><i class="fa fa-caret-right"></i>&nbsp;Terms url</a></h4></li>
 									</ul>
 								</div>
 							</div>

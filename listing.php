@@ -6,44 +6,44 @@
 					<div class="col-sm-3">
 						<aside id="category" class="filter-list">
 							<h3 class="title">Category</h3>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input class="all" type="checkbox" checked>All Categories</label>
+										<input class="all" type="radio" checked>All Categories</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Servers</label>
+										<input type="radio">Servers</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Desktops</label>
+										<input type="radio">Desktops</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Laptops</label>
+										<input type="radio">Laptops</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Components</label>
+										<input type="radio">Components</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Drivers & Plugins</label>
+										<input type="radio">Drivers & Plugins</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Applications</label>
+										<input type="radio">Applications</label>
 									</label>
 								</div>
-								<div class="checkbox">
+								<div class="radio">
 									<label>
-										<input type="checkbox">Service Providers</label>
+										<input type="radio">Service Providers</label>
 									</label>
 								</div>
 						</aside>
